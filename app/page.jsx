@@ -7,12 +7,12 @@ export default function Home() {
       <Image 
         src={osudefaultpfp}
         alt="osu default"
-        width={800}
+        width={500}
         quality={10}
         placeholder='blur'
       />
       <h1>whats up</h1>
-      <h1>i should put my osekai profile here later i think</h1>
+      <iframe src="https://osekai.net/profiles/img/banner.svg?id=8525223"></iframe>
     </main>
   )
 }

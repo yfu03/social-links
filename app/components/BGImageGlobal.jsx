@@ -17,7 +17,7 @@ export default function BGImageGlobal() {
         fill
         sizes="100vw"
         alt="background image"
-        style={imageStyle}
+        className='object-cover z-[-1] blur-[2.75px] brightness-50'
       />
     </div>
   )
