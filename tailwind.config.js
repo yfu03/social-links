@@ -8,6 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        glow: [
+          "0 0px 10px rgba(255,255, 255, 0.25)",
+          "0 0px 45px rgba(255, 255,255, 0.15)"
+        ]
+      },
       colors: {
         primary: '#17e38a'
       },

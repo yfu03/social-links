@@ -6,7 +6,7 @@
 body {
   background: #000000;
   /*background-image: url('../app/components/background.PNG');*/
-  @apply text-gray-400 m-10;
+  /*@apply text-gray-400 m-10;*/
 }
 
 h1, h2 {
@@ -25,19 +25,9 @@ p > a {
 /* nav styles */
 nav {
   @apply
-    pb-3
     flex items-center gap-5 
-    my-10 mx-auto 
+    my-3 mx-auto 
     max-w-5xl;
-}
-nav a, nav span {
-  @apply text-gray-500;
-}
-nav a:hover {
-  @apply text-black;
-}
-main nav {
-  @apply border-0;
 }
 
 /* button styles */

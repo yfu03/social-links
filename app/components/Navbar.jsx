@@ -16,7 +16,7 @@ export default function Navbar() {
         <Image 
         src={image}
         alt={alt}
-        className='m-3 h-[40px] w-[40px] opacity-[.50] hover:opacity-100'
+        className='m-3 h-[40px] w-[40px] opacity-[.45] hover:opacity-100 hover:drop-shadow-glow transition ease-out duration-500'
         quality={100}
         placeholder='blur'
         />
@@ -33,13 +33,11 @@ export default function Navbar() {
         quality={100}
         placeholder='blur'
       />
-      
-      <Link href = "/">Home</Link>
-      <Link href = "/links">Links</Link>
-      <div className="text-green-500">
-        <h1>Site is Under Construction</h1>
+      <div className="flex flex-row">
+        <Link className='m-5 font-bold text-2xl text-white opacity-30 hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300' href = "/">Home</Link>
+        <Link className='ml-5 mt-5 mb-5 mr-2 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300' href = "/links">Links</Link>
+        <Link className='ml-5 mt-5 mb-5 mr-2 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300' href = "/tourneys">Tourneys</Link>
       </div>
-      
       <div className="flex flex-row">
         <NavbarIcon
           image = {twitch}
