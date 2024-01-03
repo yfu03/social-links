@@ -3,7 +3,7 @@ import './globals.css'
 
 
 import Navbar from './components/Navbar'
-import UnderConstruction from './components/underConstruction'
+import BGImageGlobal from './components/BGImageGlobal'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <BGImageGlobal />
         <Navbar />
         {children}
         

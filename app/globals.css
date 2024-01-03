@@ -4,9 +4,11 @@
 
 /* base styles */
 body {
-  background: #0c1527;
-  @apply text-gray-500 m-8;
+  background: #000000;
+  /*background-image: url('../app/components/background.PNG');*/
+  @apply text-gray-400 m-10;
 }
+
 h1, h2 {
   @apply font-bold text-primary text-lg;
 }
@@ -24,7 +26,6 @@ p > a {
 nav {
   @apply
     pb-3
-    border-b-2 border-gray-200
     flex items-center gap-5 
     my-10 mx-auto 
     max-w-5xl;

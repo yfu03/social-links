@@ -16,7 +16,7 @@ export default function Navbar() {
         <Image 
         src={image}
         alt={alt}
-        className='m-3 h-[50px] w-[50px] opacity-[.50] hover:opacity-100'
+        className='m-3 h-[40px] w-[40px] opacity-[.50] hover:opacity-100'
         quality={100}
         placeholder='blur'
         />
