@@ -11,7 +11,8 @@ export default function Home() {
         quality={10}
         placeholder='blur'
       />
-      <div>whats up</div>
+      <h1>whats up</h1>
+      <h1>i should put my osekai profile here later i think</h1>
     </main>
   )
 }
