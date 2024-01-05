@@ -22,6 +22,10 @@ export default function Navbar() {
         />
       </Link>
     );
+  }
+
+  const NavbarText = {
+
   };
 
   return (
@@ -34,9 +38,13 @@ export default function Navbar() {
         placeholder='blur'
       />
       <div className="flex flex-row">
-        <Link className='m-5 font-bold text-2xl text-white opacity-30 hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300' href = "/">Home</Link>
-        <Link className='ml-5 mt-5 mb-5 mr-2 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300' href = "/links">Links</Link>
-        <Link className='ml-5 mt-5 mb-5 mr-2 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300' href = "/tourneys">Tourneys</Link>
+       {[
+        ['Home', '/'],
+        ['Playstyle', '/playstyle'],
+        ['Tourneys', '/tourneys'],
+       ].map(([title, url]) => (
+          <Link href={url} className='m-5 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300'>{title}</Link>
+       ))}
       </div>
       <div className="flex flex-row">
         <NavbarIcon
