@@ -27,7 +27,7 @@ export default function Navbar() {
         />
       </Link>
     );
-  }
+  };
   return (
     <nav>
       <Image 
