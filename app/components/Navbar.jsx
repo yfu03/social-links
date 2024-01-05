@@ -44,7 +44,7 @@ export default function Navbar() {
           ['Playstyle', '/playstyle'],
           ['Tourneys', '/tourneys'],
         ].map(([title, url]) => (
-            <Link href={url} className='m-5 mb-2 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300'>{title}</Link>
+            <Link key={title} href={url} className='m-5 mb-2 text-white opacity-30 font-bold text-2xl hover:opacity-100 hover:text-white hover:drop-shadow-glow transition ease-out duration-300'>{title}</Link>
         ))}
         </div>
         <div className="flex flex-row mt-1.5 absolute right-5">
