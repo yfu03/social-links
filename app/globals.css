@@ -26,5 +26,5 @@ nav {
 
 footer {
   @apply fixed w-full backdrop-filter backdrop-blur-sm bg-black bg-opacity-50 
-  text-[white] text-center left-0 bottom-0 flex flex-row justify-center py-3 gap-10;
+  text-[white] text-center text-xs left-0 bottom-0 flex flex-row justify-center py-2 gap-10;
 }
