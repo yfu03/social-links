@@ -7,8 +7,14 @@ body {
   background: #000000;
 }
 
-h1, h2 {
+h1{
   @apply font-bold text-primary text-lg;
+}
+h2{
+  @apply font-bold text-white text-lg;
+}
+p{
+  @apply font-medium text-white text-lg;
 }
 main {
   @apply max-w-5xl my-9 mx-auto;

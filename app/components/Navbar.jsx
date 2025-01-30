@@ -13,6 +13,7 @@ import twitterW from './twitter_white.png';
 import twitchW from './twitch_white.png';
 import youtubeW from './youtube_white.png';
 import osuW from './osu_logo_white.png';
+import blueSkyW from './Bluesky_logo_White.png';
 
 export default function Navbar() {
   const NavbarIcon = ({ image, link, alt }) => {
@@ -55,13 +56,18 @@ export default function Navbar() {
           />
           <NavbarIcon
             image = {youtubeW}
-            link = 'https://www.youtube.com/channel/UCYGF42y5DnObiG7NgpYv92Q'
+            link = 'https://www.youtube.com/@sympli1'
             alt = 'Youtube'
           />
           <NavbarIcon
             image = {twitterW}
             link = 'https://twitter.com/Sympli_'
             alt = 'Twitter'
+          />
+          <NavbarIcon
+            image = {blueSkyW}
+            link = 'https://bsky.app/profile/sympli.bsky.social'
+            alt = 'BlueSky'
           />
           <NavbarIcon
             image = {osuW}

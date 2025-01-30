@@ -1,5 +1,4 @@
-import { Inter } from 'next/font/google'
-//note: i should get a more appropriate font than this later (google website fonts or something lmfao)
+import { Inter } from '@next/font/google';
 import './globals.css'
 
 
@@ -7,7 +6,7 @@ import Navbar from './components/Navbar'
 import BGImageGlobal from './components/BGImageGlobal'
 import Footer from './components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Sympli from osu!',
