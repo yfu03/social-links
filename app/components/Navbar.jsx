@@ -13,7 +13,7 @@ import twitterW from './twitter_white.png';
 import twitchW from './twitch_white.png';
 import youtubeW from './youtube_white.png';
 import osuW from './osu_logo_white.png';
-import blueSkyW from './Bluesky_logo_White.png';
+import blueSkyW from './bluesky_white.png';
 
 export default function Navbar() {
   const NavbarIcon = ({ image, link, alt }) => {
