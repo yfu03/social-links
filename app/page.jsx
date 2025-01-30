@@ -22,8 +22,8 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-[3rem]">
-        <p>Welcome to my personal website! I'm an osu player from Missouri, USA that primarily specializes in speed and finger control.
-          I'm also into scorefarming and going for nightcore leaderboards and SSs!
+        <p>Welcome to my personal website! I&apos;m an osu player from Missouri, USA that primarily specializes in speed and finger control.
+          I&apos;m also into scorefarming and going for nightcore leaderboards and SSs!
         </p>
       </div>
       
