@@ -17,7 +17,7 @@ export default function Home() {
           loading="eager" //test with "eager" later
         />
         <div className="flex-col ml-6 mt-[13rem]">
-          <h1 className="text-[150px]">Hi! I'm</h1>
+          <h1 className="text-[150px]">Hi! I&apos;m</h1>
           <h2 className="text-[150px] mt-[6rem]">Sympli!</h2>
         </div>
       </div>
