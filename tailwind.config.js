@@ -19,6 +19,17 @@ module.exports = {
       },
       backgroundImage: {
         'bg-global': "url('../app/components/background.PNG')",
+      },
+
+      animation: {
+        fadeIn: 'fadeIn 2.5s ease-in',
+      },
+
+      keyframes: {
+        fadeIn: {
+          '0%': {opacity: '0'},
+          '100%': {opacity: '1'}
+        },
       }
     },
   },
